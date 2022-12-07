@@ -1,0 +1,133 @@
+.wrapper {
+    display: grid;
+
+    grid-template-areas: 
+    "h h"
+    "n m";
+
+    grid-template-rows: 70px 100px;
+    grid-template-columns: 1fr 9fr;
+}
+
+.header {
+    grid-area: h;
+    height: 60px;
+    background: white;
+    text-align: center;
+    vertical-align: middle;
+}
+
+body {
+    margin: 0%;
+    background: rgb(184, 180, 180);
+}
+
+
+
+
+/*.....................................................  logo  ..................*/
+.first, .second, .third {
+    width: 3px;
+    transform: rotate(45deg);
+    position: relative;
+}
+
+.first {
+    height: 15px;
+    background: red;
+    top: 13px;
+    left: 4px;
+}
+
+.second {
+    height: 30px;
+    background: blue;
+    left: 19px;
+    bottom: 15px;
+}
+.third {
+    height: 15px;
+    background: rgb(233, 119, 12);
+    left: 34px;
+    bottom: 42px;
+} 
+
+.name {
+    background-image: linear-gradient(90deg, #bd5a61, #a84fa5);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-size: 15px;
+    position: relative;
+    bottom: 72px;
+}
+
+.border {
+    width: 45px;
+    height: 45px;
+    border:
+        3px
+        solid
+        white;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px 5px #a84fa5;
+    position: relative;
+    left: 10px;
+    top: 4px;
+    margin:auto;
+    float: left;
+}
+
+/*............................................................   logo    ........*/
+
+
+
+.back {
+    height: 20px;
+    background: #000;
+    color: white;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+}
+
+
+
+.theme {
+    width: 20px;
+    position: relative;
+    left: 300px;
+    cursor: pointer;
+    top: 15px;
+}
+
+nav {
+    margin: auto;
+}
+
+.li-item {
+    float: left;
+    padding: 20px;
+    list-style-type: none;
+}
+
+.li-item:hover {
+    color: #a84fa5;
+    cursor: pointer;
+}
+
+nav {
+    position: relative;
+    left: 200px;
+    
+}
+
+.login {
+    width: 100px;
+    height: 45px;
+    position: relative;
+    color: rgb(200, 200, 230);
+    background: rgb(79, 79, 92);
+    left: 300px;
+    top: 300px;
+}
